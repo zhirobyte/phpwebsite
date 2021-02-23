@@ -6,10 +6,14 @@
 <body>
 
 <?php
-	foreach ($i=0; $i<3; $i++) {
-		echo ;
+$angka = 1;
+	for ($i=1; $i<100; $i++) {
+		if ($angka % 2)  {
+			echo "adalah bilangan ganjil";
+		} else {
+			echo "adalah bilangan";
+		}	
 	}
-
 
   ?>
 </body>
